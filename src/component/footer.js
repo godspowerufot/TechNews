@@ -1,6 +1,16 @@
 import React from "react";
 import "./Footer.css";
-import { Facebook, WhatsApp, Instagram } from "@mui/icons-material";
+import {
+  Facebook,
+  WhatsApp,
+  Instagram,
+  LinkedIn,
+  Email,
+  LocationCity,
+  Telegram,
+  GitHub,
+  Phone,
+} from "@mui/icons-material";
 
 const Footer = () => {
   return (
@@ -28,38 +38,49 @@ const Footer = () => {
             </p>
           </div>
           <div className="col-md-4">
-            <h3>Contact Us</h3>
+            <h2>Contact Us</h2>
+
             <p>
-              123 Main Street
+              <LocationCity className="iconss" />
+              Akpaden
               <br />
-              New York, NY 10001
+              <Phone className="iconss" /> (234) 9018902180
               <br />
-              Phone: (123) 456-7890
-              <br />
-              Email: info@company.com
+              <Email className="iconss" /> ufotgodspower8@gmail.com
             </p>
           </div>
           <div className="col-md-4">
             <h3>Follow Us</h3>
             <ul className="social-media">
               <li>
-                <a href="#facebook">
+                <a href="https://www.facebook.com/godspower.ufot.16 ">
                   <Facebook />
                 </a>
               </li>
               <li>
-                <a href="#whatsapp">
+                <a href="wa.me/+23490189021">
                   <WhatsApp />
                 </a>
               </li>
               <li>
-                <a href="#instagram">
+                <a href="https://instagram.cm/ufot.godspower">
                   <Instagram />
                 </a>
               </li>
               <li>
-                <a href="#youtube">
-                  <i className="fab fa-youtube"></i>
+                <a href="t.me/Godspowerufot">
+                  <Telegram />
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/godspowerufot">
+                  <GitHub />
+                </a>
+              </li>
+
+              <li>
+                <a href="https//www.linkedin.com/in/godspowerufot">
+                  <LinkedIn />
                 </a>
               </li>
             </ul>
@@ -69,5 +90,4 @@ const Footer = () => {
     </footer>
   );
 };
-
 export default Footer;

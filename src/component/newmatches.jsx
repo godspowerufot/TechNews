@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Typography } from "@mui/material";
 import "./home.css";
 
 const News = () => {
@@ -34,12 +33,11 @@ const News = () => {
 
   return (
     <div className="cardContainer">
-      <h1> Football News</h1>
       {isLoading ? (
         <Typography>Waiting...</Typography>
       ) : (
         news.map((article, index) => (
-          <div className="card" key={index}>
+          <div className="card" key={index } data-aos="zoom-in">
             {article.name}
             <img src={article.urlToImage} alt="news" className="card-image" />
             <div className="card-body">

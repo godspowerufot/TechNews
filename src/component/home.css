@@ -23,7 +23,8 @@
   font-size: 2.5em;
   font-weight: 800;
   position: absolute;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Poppins, sans-s,Gill Sans", "Gill Sans MT", Calibri,
+    "Trebuchet MS", sans-serif;
 }
 
 #LittlePage {
@@ -140,13 +141,17 @@
   }
 
   .pages {
-    left: 100px;
+    left: 110px;
     font-weight: 800;
     font-size: 10pt;
   }
   .product-card {
     max-width: 300px;
     margin-left: 5%;
+  }
+  .page {
+    font-size: 0.8em;
+    font-size: bold;
   }
   .product-cardcontainer {
     flex-direction: column;

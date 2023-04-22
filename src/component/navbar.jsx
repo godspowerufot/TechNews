@@ -1,5 +1,7 @@
 import React, { useState } from "react";
+import { Menu, Close } from "@mui/icons-material";
 import "./navbar.css";
+
 import { HashLink as Link } from "react-router-hash-link";
 
 function Navbar() {
@@ -34,7 +36,9 @@ function Navbar() {
     <header>
       <nav className="navbar">
         {/* set navelement to false on large(horizontally ) */}
-        <div className="menu-icon" onClick={handleShowNavbar}></div>
+        <div className="menu-icon" onClick={handleShowNavbar}>
+          {showNavbar ? <Menu /> : <Close />}
+        </div>
 
         <ul className={`nav-list ${showNavbar && "expanded"}`}>
           {itemList.map((text, index) => (
