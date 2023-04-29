@@ -28,7 +28,7 @@
 }
 
 #LittlePage {
-  color: orange;
+  color: #10274f;
 }
 
 .card {
@@ -122,10 +122,10 @@
 }
 
 .product-button {
-  background-color: #007bff;
+  background-color: #152238;
   color: #fff;
-  border-radius: 10%;
-  width: 50%;
+  border-radius: 16px;
+  width: 70%;
   border: none;
   padding: 10px;
 }

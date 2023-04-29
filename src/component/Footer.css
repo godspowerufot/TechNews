@@ -1,5 +1,5 @@
 .footer {
-  background-color: hsl(50, 86%, 14%);
+  background-color: #152238;
 
   color: white;
 }
@@ -60,7 +60,7 @@
   line-height: 50px;
   text-align: center;
   border-radius: 50%;
-  background-color: hsl(49, 100%, 7%);
+  background-color: #18325e;
   transition: all 0.2s ease-in-out;
 }
 

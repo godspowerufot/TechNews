@@ -1,6 +1,6 @@
 import React from "react";
 import "./home.css";
-import images from "../images/images (1).jpeg";
+import images from "../images/images.jpeg";
 
 function Productpage() {
   const itemList = [
@@ -64,7 +64,7 @@ function Productpage() {
         {itemList.map((article, index) => (
           <div className="product-card">
             <div className="product-image">
-              <img src={images} alt="Gadget" />
+              <img src={images} alt="Gadget" style={{ overflowY: "hidden" }} />
             </div>
             <div className="product-info">
               <h2 className="product-name">{article.GadgetName}</h2>
