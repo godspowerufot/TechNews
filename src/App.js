@@ -51,11 +51,12 @@ function App() {
             <PageLoader />
           ) : (
             ((<h1> TechNews</h1>),
-            news
-              .slice(0, 15)
-              .map((article, index) => (
-                <News article={article} isLoading={isLoading} key={index} />
-              )))
+            news &&
+              news
+                .slice(1, 15)
+                .map((article, index) => (
+                  <News article={article} key={index} />
+                )))
           )}
           <Productpage />
           <Footer />
