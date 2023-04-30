@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/TechNews/static/css/main.956bd66a.css",
-    "main.js": "/TechNews/static/js/main.4e2242e1.js",
+    "main.js": "/TechNews/static/js/main.bae85f2d.js",
     "static/js/787.5dc0e2a0.chunk.js": "/TechNews/static/js/787.5dc0e2a0.chunk.js",
     "static/media/slide-1.jpg": "/TechNews/static/media/slide-1.ca2d5150055369188a4a.jpg",
     "static/media/images.jpeg": "/TechNews/static/media/images.155efa98f2d569b3b498.jpeg",
     "index.html": "/TechNews/index.html",
     "main.956bd66a.css.map": "/TechNews/static/css/main.956bd66a.css.map",
-    "main.4e2242e1.js.map": "/TechNews/static/js/main.4e2242e1.js.map",
+    "main.bae85f2d.js.map": "/TechNews/static/js/main.bae85f2d.js.map",
     "787.5dc0e2a0.chunk.js.map": "/TechNews/static/js/787.5dc0e2a0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.956bd66a.css",
-    "static/js/main.4e2242e1.js"
+    "static/js/main.bae85f2d.js"
   ]
 }
