@@ -9,10 +9,11 @@ const News = ({ article, index }) => {
     <div className="cardContainer" id="news">
       <div className="card " key={index}>
         {article?.name}
-        <img src={article.urlToImage} alt="news" className="card-image" />
+        <img src={article.image} alt="news" className="card-image" />
         <div className="card-body">
           <h2 className="card-title">{article.title}</h2>
           <p className="card-text">{article.description}</p>
+          <p className="card-text">{article.content}</p>
         </div>
       </div>
     </div>

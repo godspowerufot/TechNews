@@ -25,12 +25,12 @@ function App() {
     fetchNews();
     // fetch news every 30 seconds
   }, []);
+  var url =
+    "https://gnews.io/api/v4/top-headlines?category='technology'&lang=en&country=us&max=10&apikey=e1a7b9916986c9a0b6b6ab43c9e8bc3c";
 
   const fetchNews = async () => {
     try {
-      const response = await fetch(
-        "https://newsapi.org/v2/everything?domains=techcrunch.com,thenextweb.com&apiKey=308c878a2ad0495ebbdb63a0d0b2aed4"
-      );
+      const response = await fetch(url);
       const data = await response.json();
 
       setNews(data.articles);

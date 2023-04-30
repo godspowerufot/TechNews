@@ -11,7 +11,7 @@ function Navbar() {
       link: "#home",
     },
     {
-      text: "TechNews",
+      text: "News",
       link: "#news",
     },
 
