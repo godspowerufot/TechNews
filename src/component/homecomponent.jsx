@@ -10,10 +10,10 @@ function Homepage() {
         <img src={images} alt=" images" className="img" />
         <div className="page">
           <span className="pages">
-            LIFE | IS ABOUT TIMING
+            LIFE | IS ABOUT INFORMATION 
             <br />
             <span className="page">
-              Just play. <span id="LittlePage">Have Fun</span> Enjoy the game
+              Just listen. <span id="LittlePage">Get insight</span> Enjoy the news
             </span>
           </span>
         </div>

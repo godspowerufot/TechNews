@@ -45,8 +45,7 @@ function App() {
     <div className="App">
       <div className="containerNav">
         <Router>
-          <Navbar />
-          <Homepage />
+          <Navbar /> <Homepage />
           {isLoading ? (
             <PageLoader />
           ) : (
